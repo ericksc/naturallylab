@@ -1,0 +1,22 @@
+# Contrato de ejemplo para la primera etapa con JupyterLite.
+# No es todavía un manifiesto soportado por la aplicación.
+schema_version: 1
+id: pandas-cleaning
+version: "1.0.0"
+title: Limpieza de datos con pandas
+language: es
+environment:
+  runtime: pyodide
+  packages: [pandas]
+workspace:
+  notebook: notebooks/practice.ipynb
+steps:
+  - id: inspect
+    title: Inspeccionar los datos
+    instructions: steps/01-inspect.md
+  - id: missing-values
+    title: Tratar valores faltantes
+    instructions: steps/02-missing-values.md
+  - id: duplicates
+    title: Eliminar duplicados
+    instructions: steps/03-duplicates.md

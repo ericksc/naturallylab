@@ -1,0 +1,27 @@
+# Ejemplo del formato propuesto; el cargador está pendiente de implementación.
+schema_version: 1
+id: pandas-sesion-01
+version: "1.0.0"
+title: Preparación y limpieza de datos
+language: es
+estimated_minutes: 60
+objectives:
+  - Inspeccionar un DataFrame.
+  - Tratar valores faltantes y duplicados.
+activities:
+  - id: introduction
+    type: reading
+    title: Antes de comenzar
+    content: content/introduccion.md
+    estimated_minutes: 10
+  - id: cleaning
+    type: lab
+    lab:
+      id: pandas-cleaning
+      version: "1.0.0"
+    estimated_minutes: 40
+  - id: closing
+    type: reading
+    title: Cierre y reflexión
+    content: content/cierre.md
+    estimated_minutes: 10

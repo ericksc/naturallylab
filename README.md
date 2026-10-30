@@ -40,3 +40,14 @@ su celda de comprobación para completar el paso. Los archivos generados en
 - [Laboratorios declarativos: Labs as Code](docs/prompts/labs-as-code.md).
 
 Los prompts son requisitos de implementación para Codex; no son servicios ya desplegados.
+
+## Propuesta de publicación de contenido
+
+[Diseño de NaturallyLab Publisher](docs/proposals/publicacion-sesiones-labs.md), con un
+[paquete ilustrativo](docs/proposals/examples/README.md) autocontenido. Validarlo con:
+
+```sh
+python scripts/validate_publisher_examples.py
+```
+
+El publicador sigue siendo una propuesta, no una funcionalidad integrada.

@@ -1,0 +1,9 @@
+# Ejemplo del formato propuesto; el cargador está pendiente de implementación.
+schema_version: 1
+id: python-ciencia-datos
+version: "1.0.0"
+title: Python para ciencia de datos
+language: es
+sessions:
+  - id: pandas-sesion-01
+    version: "1.0.0"
