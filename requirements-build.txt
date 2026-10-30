@@ -1,0 +1,4 @@
+jupyterlite-core==0.8.6
+jupyterlite-pyodide-kernel==0.8.6
+jupyter-server>=2,<3
+jupyterlab-server>=2,<3

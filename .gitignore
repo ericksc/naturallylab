@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.jupyterlite.doit.db*
+dist/
+jupyter-build/.cache/
+outputs/
